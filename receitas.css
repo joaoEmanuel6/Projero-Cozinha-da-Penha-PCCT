@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* #tituloo_receitas {
+        display: flex;
+        justify-content: center;
+        font-family: 'Bree Serif', serif;
+        color: #E6B967;
+        font-size: 1.8em;
+        margin-top: 2vh;
+} */
+.frase_titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+hr {
+    margin: 2vh;
+}
+.galeria {
+    display: flex;
+    justify-content: center;
+    
+}
+.fotos_galeria {
+    height: 40vh;
+    border-radius: 10px;
+}
+.lista_mae {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+}
+.lista_ingredientes {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+.lista_mae2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+}
+li {
+    padding: 1vh;
+}
+.mae_botao {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.botao_home {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.1em;
+    font-weight: 200;
+    height: 5vh;
+    width: 30vw;
+    background:#aaa2a2;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+}

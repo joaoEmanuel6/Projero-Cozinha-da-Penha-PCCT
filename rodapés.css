@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
+    width: 100%;
+    height: 50vh;
+    background-color:  #E08422;
+    padding-top: 2vh;
+}
+.rodape {
+    display: flex;
+    justify-content:baseline;
+    margin-top: 8vh;
+}
+.caixa_mae_rodape {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titulo_rodape {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color:#000;
+    font-size: 1.3em;  
+    margin-left: 10vw;
+    margin-bottom: 2vh;
+}
+.logo {
+    width: 4vh;
+}
+.box_1_rodape {  
+    width: 39vw;
+    display: flex;
+    margin-left: 10vw;
+    margin-bottom: 2vh;
+
+}
+.box_2_rodape { 
+    width: 39vw;
+    display: flex;
+    margin-left: 10vw;
+    margin-top: 1vh;   
+}
+.texto_rodape {
+    margin-left: 1vh;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color:#000;
+}
+.caixa_mae_rodape_2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+         
+}
+.box_3_rodape {
+    width: 39vw;
+    display: flex;
+    margin-left: 10vw;
+    margin-bottom: 2vh;
+
+}
+.box_4_rodape {
+    
+    width: 39vw;
+    display: flex;
+    margin-left: 10vw;
+    margin-top: 1vh;   
+}
+
+#ultimo_texto {
+    height: 42%;
+    font-size: 0.7em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color:#000;
+}

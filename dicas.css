@@ -81,43 +81,47 @@ a {
 a:hover {
     color: #E6B967;
 }
-main {
-    margin-bottom: 5vh;
-    margin-top: 5vh;
+.mae_titulo {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
-.caixa_receitas {
-    margin: 2vh;
-    padding: 2vh;
-    /* border: 1px solid #aaa2a2;
-    border-radius: 10px; */
-}
-#titulo_receitas {
+.titulo_receitas {
     display: flex;
     justify-content: center;
     font-family: 'Bree Serif', serif;
     color: #E6B967;
-    font-size: 2.2em;
+    font-size: 2.1em;
     font-weight: 500;
 }
-.titulo_receita {
-    font-family: 'Bree Serif', serif;
-    color: #E6B967;
-    font-size: 1.2em;
-}
-.img_dentro_receitas {
-    height: 35vh;
-    border-radius: 10px;
-}
-.caixa_receitas:hover {
-    -moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-.corpo_receitas {
+.texto_topo {
+    margin-top: 2.7vh;
+    width: 70%;
     font-family: 'Be Vietnam Pro', sans-serif;
     color:#000;
-    font-size: 0.9em;
+    font-size: 1em;
+    text-align: justify;
+    margin-bottom: 5vh;
+}
+.dicas_mae {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding-bottom: 4vh;
+}
+.dicas_filha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.paragrafo {
+    text-align: justify;
+    width: 50%;
+}
+.lista_title {
+    font-size: 1.5vw;
+    color: #E6B967;
+    font-weight:700;
+    padding: 4vw 3vw;
+    width: 50%;
 }

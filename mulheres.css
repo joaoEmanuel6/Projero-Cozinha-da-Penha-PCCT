@@ -39,7 +39,7 @@
     float:left;
     background-color:transparent;
     padding-left:5px;
-    font-size:18px;
+    font-size:0.9em;
     border:none;
     height:4,8vh;
     width: 13,9vw;
@@ -74,50 +74,96 @@ li:hover {
     color: #E6B967;
     cursor: pointer;
 }
+.mae {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo {
+    font-size: 1.5em;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    font-family: 'Bree Serif', serif;
+    color: #000;
+    background-color:#aaa2a2;
+    border-radius: 13px 13px 0 0 ;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.caixa_dicas {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 2vw;
+    width: 80%;
+    text-align: justify;
+    border: #aaa2a2 solid 1px;
+    border-radius:  0 0 13px 13px;
+    margin-bottom: 5vh;
+}
+label {
+    padding: 2vh;
+    width: 50%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+input {
+    border: #aaa2a2 solid 1px;
+    border-radius: 5px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+#input_name {
+    width: 35vw;
+    height: 5vh;
+}
+#input_email {
+    width: 35vw;
+    height: 5vh;
+}
+#input_tel{
+    width: 35vw;
+    height: 5vh;
+}
+#label_city {
+    display: flex;
+    flex-direction: column;
+}
+#input_cidade {
+    width: 25vw;
+    height: 5vh;
+}
+#estados {
+    width: 5vw;
+}
+select {
+    float: right    ;
+    font-size: 0.8em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border-radius: 5px;
+    border: #aaa2a2 solid 1px;
+    width: 10vw;
+    height: 5vh;
+}
+#botao_form {
+    font-size: 0.8em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border-radius: 1px solid #aaa2a2 ;
+    width: 10vw;
+    height: 5vh;
+}
+#caixa_desc {
+    padding-top: 5vh;
+    display: flex;
+}
 a {
     text-decoration:none;
     color: #000;    
 }
 a:hover {
     color: #E6B967;
-}
-main {
-    margin-bottom: 5vh;
-    margin-top: 5vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.caixa_receitas {
-    margin: 2vh;
-    padding: 2vh;
-    /* border: 1px solid #aaa2a2;
-    border-radius: 10px; */
-}
-#titulo_receitas {
-    display: flex;
-    justify-content: center;
-    font-family: 'Bree Serif', serif;
-    color: #E6B967;
-    font-size: 2.2em;
-    font-weight: 500;
-}
-.titulo_receita {
-    font-family: 'Bree Serif', serif;
-    color: #E6B967;
-    font-size: 1.2em;
-}
-.img_dentro_receitas {
-    height: 35vh;
-    border-radius: 10px;
-}
-.caixa_receitas:hover {
-    -moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-.corpo_receitas {
-    font-family: 'Be Vietnam Pro', sans-serif;
-    color:#000;
-    font-size: 0.9em;
-}
+   }
